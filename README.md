@@ -1,4 +1,5 @@
-[![Marketplace](https://vsmarketplacebadge.apphb.com/version/quicktype.quicktype.svg)](https://marketplace.visualstudio.com/items/doggy8088.quicktype-refresh) [![Installs](https://vsmarketplacebadge.apphb.com/installs/doggy8088.quicktype-refresh.svg)](https://marketplace.visualstudio.com/items/doggy8088.quicktype-refresh) [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/doggy8088.quicktype-refresh.svg)](https://marketplace.visualstudio.com/items/doggy8088.quicktype-refresh)
+## Notice
+This project is forked from [quicktype-vscode-refresh](https://github.com/doggy8088/quicktype-vscode-refresh) and add support to latest quicktype api, the main function is that you can use camelized key for Typescript, please have a try by toggle on the `camelizedKeyForTypescript` switch in configuration.
 
 ## FAQ
 
@@ -30,6 +31,7 @@ For a more powerful experience, including custom options and the ability to gene
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/doggy8088.quicktype-refresh)
 
 ## Customization
+- `quicktype.camelizedKeyForTypescript`: Whether set the key as camelized key for Typescript
 
 - `quicktype.justTypes`: Generate only types, or also produce (de)serialization code when using "Open quicktype". When using "Paste", you can pick between the commands for "types" and "code", without having to set this option.
 
@@ -39,6 +41,4 @@ This extension is available for free in the [Visual Studio Code Marketplace](htt
 
 ## Contribute!
 
-[quicktype](https://github.com/quicktype/quicktype) is an open source project, and we're always happy about contributors. Due to the lack of maintainence of the original project, I forked a [new one](https://github.com/doggy8088/quicktype) for further developments.  If you can think of a way to improve [this extension](https://github.com/doggy8088/quicktype-vscode-refresh), or [quicktype](https://github.com/doggy8088/quicktype), please consider contributing, especially if you know TypeScript. Code is only one way to contribute, though: we're particularly short on documentation.
-
-If you find a bug, please [report it on GitHub](https://github.com/doggy8088/quicktype-vscode-refresh/issues).
+If you find a bug, please [report it on GitHub](hhttps://github.com/hank619/quicktype-vscode).
