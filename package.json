@@ -2,7 +2,7 @@
   "name": "quicktype-new",
   "displayName": "Paste JSON as Code(New)",
   "description": "Copy JSON, paste as Go, TypeScript, C#, C++ and more. Integrate to latest quicktype api and support camelized key for Typescript",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "publisher": "matrixyf",
   "icon": "media/icon.png",
   "galleryBanner": {
