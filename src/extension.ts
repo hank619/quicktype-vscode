@@ -16,8 +16,8 @@ import {
     RendererOptions,
     Options,
     inferenceFlagNames
-} from "@willh/quicktype-core";
-import { schemaForTypeScriptSources } from "@willh/quicktype-typescript-input";
+} from "quicktype-core";
+import { schemaForTypeScriptSources } from "quicktype-typescript-input";
 
 const configurationSection = "quicktype";
 
@@ -118,7 +118,11 @@ async function runQuicktype(
     const configuration = vscode.workspace.getConfiguration(configurationSection);
     const justTypes = forceJustTypes || configuration.justTypes;
 
-    const rendererOptions: RendererOptions = {};
+    const rendererOptions: RendererOptions = {
+    };
+    if (lang.name === 'typescript') {
+      rendererOptions['nice-property-names'] = configuration.camelizedKeyForTypescript;
+    }
     if (justTypes) {
         // FIXME: The target language should have a property to return these options.
         if (lang.name === "csharp") {
