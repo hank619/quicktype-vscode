@@ -28,7 +28,7 @@ For a more powerful experience, including custom options and the ability to gene
 
 ## Installing
 
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/doggy8088.quicktype-refresh)
+This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=matrixyf.quicktype-new)
 
 ## Customization
 - `quicktype.camelizedKeyForTypescript`: Whether set the key as camelized key for Typescript
